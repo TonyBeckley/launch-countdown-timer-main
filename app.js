@@ -17,7 +17,7 @@ function countdown () {
     document.getElementById("days").innerHTML = timeDays;
     document.getElementById("hours").innerHTML = timeHours;
     document.getElementById("minutes").innerHTML = timeMinutes;
-    document.getElementbyId("seconds").innerHTML = timeSeconds;
+    document.getElementById("seconds").innerHTML = timeSeconds;
 }
 
-setInterval(countdown(), 1000);
+setInterval(countdown, 1000);
